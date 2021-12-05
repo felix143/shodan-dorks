@@ -1,6 +1,7 @@
 # shodan-dorks
 Dorks for shodan
 
+```
 server: "gws" hostname:"google"
 org:”Amazon” ssl:”target”
 http.favicon.hash:81586312 200
@@ -14,3 +15,4 @@ port:"9200" all:"elastic indices"
 port:5432 PostgreSQL
 proftpd port:21
 "X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
+```
